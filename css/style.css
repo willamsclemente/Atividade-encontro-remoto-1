@@ -124,13 +124,13 @@ header {
 }
 
 main {
-    height: 500px;
+    height: 1520px;
 }
 
 /* Banner */
 
 .banner {
-    height: 80%;
+    height: 26.32%;
     width: 100%;
     background-image: linear-gradient(to right, #145369, #010303 70%);
     display: flex;
@@ -222,7 +222,7 @@ main {
 
 .informacoes {
     background-color: #2596BE;
-    height: 20%;
+    height: 6.58%;
     width: 100%;
 }
 
@@ -355,11 +355,7 @@ footer {
 
 .transforma-main{
     height: 500px;
-    /* background: linear-gradient(#a2a5a5 , #b7bebe), url(../img/herois); */
-    /* background: linear-gradient(#aaadad, #b7bebe), url(../img/herois.jpg); */
-    /* background: linear-gradient(#e2e7e7, #dbe6e6), url(../img/herois); */
     background: linear-gradient(#808383 10%, rgb(255, 255, 255)), url(../img/herois.jpg);
-    /* background-image: url(../img/herois.jpg); */
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -450,4 +446,86 @@ footer {
     display: flex;
     justify-content: flex-start;
    
+}
+
+/* Destaques */
+
+.destaques {
+    height: 67.10%;
+    width: 100%;
+    background-image: linear-gradient(to right, #354448 2% , #25A5BE, #2F3233 98%);
+}
+
+.container-grid-destaques {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titulo-destaque {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.imagens-destaque {
+    height: 860px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.linha-destaque {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-destaque {
+    height: 100%;
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.imagem-card {
+    width: 222px;
+    height: 222px;
+}
+
+.titulo-card {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.preco-card {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.botao-card {
+    width: 200px;
+    height: 40px;
+    color: black;
+}
+
+.link-destaque {
+    text-decoration: none;
+    color: black
 }
