@@ -124,13 +124,13 @@ header {
 }
 
 main {
-    height: 1520px;
+    height: 1770px;
 }
 
 /* Banner */
 
 .banner {
-    height: 26.32%;
+    height: 22.60%;
     width: 100%;
     background-image: linear-gradient(to right, #145369, #010303 70%);
     display: flex;
@@ -222,7 +222,7 @@ main {
 
 .informacoes {
     background-color: #2596BE;
-    height: 6.58%;
+    height: 5.65%;
     width: 100%;
 }
 
@@ -355,15 +355,21 @@ footer {
 
 .transforma-main{
     height: 500px;
-    background: linear-gradient(#808383 10%, rgb(255, 255, 255)), url(../img/herois.jpg);
+    background-image: url(../img/herois.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
-    background-blend-mode: darken;
 
 }
 
+.mascara-login {
+    background-color: rgb(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
 .container-grid-login {
     width: 1000px;
@@ -451,7 +457,7 @@ footer {
 /* Destaques */
 
 .destaques {
-    height: 67.10%;
+    height: 57.63%;
     width: 100%;
     background-image: linear-gradient(to right, #354448 2% , #25A5BE, #2F3233 98%);
 }
@@ -529,3 +535,45 @@ footer {
     text-decoration: none;
     color: black
 }
+
+/* Slogan */
+
+.slogan {
+    height: 14.12%;
+    width: 100%;
+    background-image: url(../img/super-smash-bros.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mascara-slogan {
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.escurece-mascara{
+    background-color: rgb(0, 0, 0, 0.5);
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto-slogan {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
